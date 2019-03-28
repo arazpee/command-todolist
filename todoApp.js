@@ -8,8 +8,8 @@ const prompt = async () => {
     message: 'what would you do',
     choices: [
       { title: 'Add Todo-list', value: 'add' },
-      { title: 'Delete Task', value: 'del' },
-      { title: 'Display all', value: 'display' },
+      { title: 'Delete Todo-list', value: 'del' },
+      { title: 'Display all Todo-list', value: 'display' },
       { title: 'exit', value: 'exit' }
     ],
   }, {
