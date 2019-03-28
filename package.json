@@ -1,0 +1,21 @@
+{
+  "name": "command-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node todoApp.js",
+    "dev": "nodemon todoApp.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompts": "^2.0.4",
+    "redis": "^2.8.0",
+    "yargs": "^13.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
